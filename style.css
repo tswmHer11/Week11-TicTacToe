@@ -1,0 +1,29 @@
+td {
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    font-size: 4rem;
+}
+td:hover {
+    background-color: rgb(28, 28, 20);
+}
+
+body {
+    display: flex;
+    width: 60%;
+    background-color: rgb(4, 88, 75);
+}
+
+tr {
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+}
+
+.highlight {
+    background-color:  rgb(62, 62, 38);
+}
